@@ -1,0 +1,11 @@
+a=input()
+b=a.index('@')
+c=a.index('.')
+d=a[0:b]
+f=len(d)
+g=a[b:c]
+h=a[c:len(a)]
+if f>3 and g=='@gmail' and h=='.com':
+    print("Valid")
+else:
+    print("InValid")
