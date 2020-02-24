@@ -5,4 +5,4 @@ ls=a[d:]
 rf=a[0:len(a)-d]
 rs=a[len(a)-d:]
 print("Left Rotetaion: ",(ls+lf))
-print("Right Roteation: ",(rs+ls))
+print("Right Roteation: ",(rs+rf))
